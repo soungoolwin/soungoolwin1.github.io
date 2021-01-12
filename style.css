@@ -4,7 +4,7 @@
     margin: 0;
 }
 .body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .main {
     background-image: url(images/coffee-shop-15.jpg);
