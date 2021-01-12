@@ -18,6 +18,8 @@
     height: 60px;
     position: absolute;
     top: 40px;
+    margin-left: 20px;
+    border-radius: 17px;
 }
 .logo img {
     width: 80px;
@@ -33,6 +35,35 @@
     top: 18px;
 }
 
-@media screen and  (max-width:560px) {
-    
+.moto {
+    text-align: center;
+    position: relative;
+    top: 240px;
+}
+.moto h1 {
+    color: white;
+    font-size: 30px;
+}
+.moto p {
+    color: white;
+    font-size: larger;
+}
+.moto button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.moto button:hover {
+    background-color: rgba(221, 221, 221, 0.63);
+    transform: translateY(5px);
+}
+
+@media screen and  (max-width:570px) {
+    .row {
+        width: 100%;
+    }
 }
