@@ -65,30 +65,71 @@
 .btn1 button:hover {
     background-color: #ddd;
 }
-@media screen and (max-width:1160px) {
-    .navitem a{
-        margin: 0 70px;
-    }
-}
-@media screen and (max-width:920px) {
-    .navitem a{
-        margin: 0 50px;
+
+@media screen and (max-width:1183px) {
+    .navitem a {
+        margin: 80px;
     }
 }
 
-@media screen and (max-width:760px) {
-    .navitem a{
-        margin: 0 30px;
-    }
-}
-@media screen and (max-width:600px) {
-    .navitem a{
-        margin: 0 10px;
+@media screen and (max-width:1019px) {
+    .navitem a {
+        margin: 70px;
     }
 }
 
-@media screen and (max-width:540px) {
-    .navitem a{
-        margin: 0 0px;
+@media screen and (max-width:937px) {
+    .navitem a {
+        margin: 60px;
+    }
+}
+@media screen and (max-width:992px){
+    .btn1 button {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width:856px) {
+    .navitem a {
+        margin: 50px;
+    }
+}
+@media screen and (max-width:774px) {
+    .navitem a {
+        margin: 30px;
+    }
+}
+@media screen and (max-width:787px) {
+    .btn1 button {
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:768px) {
+    .btn1 button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width:611px) {
+    .navitem a {
+        margin: 20px;
+    }
+}
+@media screen and (max-width:529px) {
+    .navitem a {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navitem a {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .navitem a {
+        margin: 5px;
     }
 }
